@@ -59,8 +59,8 @@ body {
 nav {
     position: sticky;
     top: 0;
-    background-colour: #1c3b5e;
-    padding: 12px 0; 24px;
+    background-color: #1c3b5e;
+    padding: 12px 24px;
     z-index: 1000;
 }
 
@@ -73,11 +73,11 @@ nav ul {list-style: none;
 }
 
 nav a {
-   colour: white;
+   color: white;
     text-decoration: none;
     font-size: 1em;
 }
 
 nav a:hover {
-    colour:#2bebff;
+    color:#2bebff;
 }
