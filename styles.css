@@ -55,3 +55,29 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f2ee;
 }
+
+nav {
+    position: sticky;
+    top: 0;
+    background-colour: #1c3b5e;
+    padding: 12px 0; 24px;
+    z-index: 1000;
+}
+
+nav ul {list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav a {
+   colour: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+nav a:hover {
+    colour:#2bebff;
+}
