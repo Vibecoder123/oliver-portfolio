@@ -8,10 +8,12 @@
 
 .project-card {
     flex: 1;
-    background: 1e1e1e;
+    background: #1e1e1e;
     border-radius: 8px;
     padding: 16px;
     overflow: hidden;
+    border: 1px solid #ddd;
+    margin: 8px;
 }
 
 .project-card img {
@@ -87,3 +89,10 @@ nav a:hover {
         flex-direction: column;
     }
 }
+
+.project-hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
